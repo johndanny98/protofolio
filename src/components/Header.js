@@ -11,7 +11,8 @@ class Header extends Component{
         return(
             <Navbar sticky = "top" expand = "sm" variant = "dark" bg = "dark">
                  <Container>
-                    <Navbar.Brand href = "#intro" style = {{fontSize: "20px"}}>JOhn Daniel</Navbar.Brand><Navbar.Toggle aria-controls = "responsive-navbar-nav" />
+                    <Navbar.Brand href = "#intro" style = {{fontSize: "20px"}}>John Daniel</Navbar.Brand>
+                    <Navbar.Toggle aria-controls = "responsive-navbar-nav" />
                     <Navbar.Collapse className = "justify-content-end">
                         <Nav className = "mr-md-2">
                             <Nav.Link href = "#about" style = {styles}> About </Nav.Link>
@@ -24,7 +25,7 @@ class Header extends Component{
                     </Container>
             </Navbar>
 
-        )
+        );
     }
 }
 export default Header;
