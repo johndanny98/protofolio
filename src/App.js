@@ -1,12 +1,18 @@
+import React, {Component} from 'react'
+import Header from "./components/Header"
 import './App.css';
+import resumeData from './resumeData';
 
-function App() {
+class App extends Component{
+  render() {
   return (
-    <div className ="app">
-      <p>hello danny everybody</p>
+    <div className ="App">
+      <Header resumeData={resumeData} />
+
       
     </div>
   );
+}
 }
 
 export default App;
