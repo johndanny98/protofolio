@@ -1,2 +1,3 @@
-It is my personal protofolio
--- you can see it -[live ](https://johndaniel12.netlify.app)
+It's my personal protofolio
+ you can see [here](https://johndaniel12.netlify.app)
+ ## in progress
