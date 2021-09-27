@@ -5,14 +5,14 @@ class Header extends Component{
     render(){
         const styles ={
             fontSize:"20px",
-            paddingLeft:"20px",
+            paddingLeft:"10px",
             paddingRight:"20px"
         }
         return(
           <Navbar sticky = "top" expand = "sm" variant = "dark" bg = "dark">
           <Container>
               <Navbar.Brand href = "#intro" style = {{fontSize: "25px"}}> 
-                  John Daniel
+                John Daniel
               </Navbar.Brand>
               <Navbar.Toggle aria-controls = "responsive-navbar-nav" />
               <Navbar.Collapse className = "justify-content-end">
