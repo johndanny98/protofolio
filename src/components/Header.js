@@ -5,7 +5,7 @@ class Header extends Component{
     render(){
         const styles ={
             fontSize:"20px",
-            paddingLeft:"20px",
+            paddingLeft:"10px",
             paddingRight:"20px"
         }
         return(
